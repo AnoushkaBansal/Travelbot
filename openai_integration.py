@@ -1,6 +1,5 @@
 from openai import OpenAI
 
-#client = OpenAI(api_key='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')
 import MySQLdb
 import os
 
