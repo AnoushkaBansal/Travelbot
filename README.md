@@ -27,6 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 3. Install the required Python packages:
 4. Create a `.env` file in the root directory and add your OpenAI API key:
 5. Set up your MySQL database and update the database configuration in `app.py` or through environment variables.
+6. The BERT model requires training with specific data to generate label encoders and tensors suitable for intent classification. Due to GitHub's file size limitations, the fully trained model file, which is approximately 6GB, cannot be uploaded directly to the repository. Instructions for training the model are provided in the documentation. The code is present in train_model to achieve the same.
 
 ### Running the Application
 
