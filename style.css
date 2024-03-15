@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.chat-header {
+    background-color: #0056b3; /* Deep blue sky */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.umbrella-icon {
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.chat-header h2 {
+    margin: 10px 0 0;
+}
+
+.tagline {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+#chatWindow {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #e6e6e6; /* Light gray, like city concrete */
+}
+
+/* Message Highlighting */
+.user-message, .bot-message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.user-message {
+    background-color: #e0e0e0;
+}
+
+.bot-message {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+/* Text Alignment with Margin */
+.user-message, .bot-message {
+    text-align: left; /* Ensure left-alignment */
+    margin-left: 20px; /* Indent for each message */
+    line-height: 1.5; /* Add some line spacing for readability */
+}
+
+.chat-input {
+    background-color: #ffc107; /* Yellow like a taxi */
+    padding: 10px;
+    display: flex;
+}
+
+.chat-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+    border: 2px solid #007bff; /* Slightly lighter blue for contrast */
+    border-radius: 4px;
+    font-size: 16px; /* Bigger text for input */
+}
+
+.chat-input button {
+    background-color: #007bff; /* Matching blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px; /* Bigger text for button */
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #0056b3;
+}

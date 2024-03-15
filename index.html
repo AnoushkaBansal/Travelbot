@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with NYC Travel Buddy</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="/static/yellow-umbrella-how-i-met-your-mother-mens-premium-t-shirt.jpg" alt=" " class="umbrella-icon">
+            <h2>NYC Travel Buddy</h2>
+            <p class="tagline">It's going to be legen-wait for it!</p>
+            <p>I can help plan your New York trip!</p>
+        </div>
+        <div id="chatWindow"></div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your query here..." onkeypress="if(event.keyCode==13){sendMessage();}">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
